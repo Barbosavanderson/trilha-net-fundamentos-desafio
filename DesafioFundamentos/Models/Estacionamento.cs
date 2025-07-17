@@ -49,7 +49,7 @@ namespace DesafioFundamentos.Models
                 }
                 decimal valorTotal = precoInicial + precoPorHora * horas;
 
-                // TODO: Remover a placa digitada da lista de veículos
+                // TODO: Remover a placa digitada da lista de veículos.
                 // *IMPLEMENTE AQUI*
                 veiculos.RemoveAll(x => x.ToUpper() == placa.ToUpper());
 
